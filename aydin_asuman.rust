@@ -1,0 +1,22 @@
+fn main() {
+
+    let asuman = vec!["asuman", "aydın", "pl hw"];
+   
+    let mut i = 0;
+    loop {
+        println!("{}", asuman[i]);
+    
+        if asuman[i] =="aydın"
+        {
+         break;
+        }
+        else
+        {
+            i = i + 1;
+        }
+    }
+        for i in asuman.iter() 
+    {
+        println!("{}",i);
+    }
+}

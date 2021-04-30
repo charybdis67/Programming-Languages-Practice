@@ -1,0 +1,25 @@
+asuman = ["age: " , 24, "name: asuman", "height: ", 170]
+
+print("for loop")
+
+for info in asuman:
+    print(" ",info)
+    
+print("while loop")
+count = 0 
+while count < len(asuman):
+    print(asuman[count])
+    count = count + 1
+    if asuman[count] == "height: ":
+        Break
+Output:
+for loop
+  age: 
+  24
+  name: asuman
+  height: 
+  170
+while loop
+age: 
+24
+name: asuman
